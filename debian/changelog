@@ -1,0 +1,19 @@
+blinker (1.3.dfsg1-1) unstable; urgency=low
+
+  * New upstream version 1.3.dfsg1
+  * Move package under Debian Python Modules Team
+  * Add Homepage to debian/control
+
+ -- Ondřej Surý <ondrej@debian.org>  Tue, 10 Sep 2013 16:18:38 +0200
+
+blinker (1.2.dfsg1-1) unstable; urgency=low
+
+  * Initial packaging. (Closes: #702231)
+  * Imported Upstream version 1.2.dfsg1
+  * Update copyright with _saferef and sphinx licenses
+  * Add repack script to remove *.js files from upstream tarball
+  * Add documentation and setup correct sphinxdoc links
+  * Update docs to include link to rst files and also add AUTHORS and
+    README file
+
+ -- Ondřej Surý <ondrej@debian.org>  Mon, 15 Apr 2013 10:46:16 +0200

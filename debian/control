@@ -1,0 +1,18 @@
+Source: blinker
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Ondřej Surý <ondrej@debian.org>
+Section: python
+Priority: optional
+Build-Depends: python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.4
+Homepage: http://pythonhosted.org/blinker/
+
+Package: python-blinker
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Fast, simple object-to-object and broadcast signaling library
+ Blinker provides a fast dispatching system that allows any number of
+ interested parties to subscribe to events, or "signals".
+ .
+ Signal receivers can subscribe to specific senders or receive signals
+ sent by any sender.
