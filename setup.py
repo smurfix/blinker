@@ -1,4 +1,7 @@
-from distutils.core import setup
+try:
+    from setuptools import setup
+except ImportError:
+    from distutils.core import setup
 
 readme = open('README').read()
 import blinker
@@ -13,7 +16,7 @@ setup(name="blinker",
       keywords='signal emit events broadcast',
       long_description=readme,
       license='MIT License',
-      url='http://discorporate.us/projects/Blinker/',
+      url='http://pythonhosted.org/blinker/',
       classifiers=[
           'Development Status :: 5 - Production/Stable',
           'Intended Audience :: Developers',
@@ -29,6 +32,7 @@ setup(name="blinker",
           'Programming Language :: Python :: 3.0',
           'Programming Language :: Python :: 3.1',
           'Programming Language :: Python :: 3.2',
+          'Programming Language :: Python :: 3.3',
           'Topic :: Software Development :: Libraries',
           'Topic :: Utilities',
           ],
